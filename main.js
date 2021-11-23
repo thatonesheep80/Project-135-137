@@ -3,7 +3,7 @@ input_var = "";
 
 function preload()
 {
-    video = createVideo();
+    video = createCapture(VIDEO);
     video.hide();
 }
 
